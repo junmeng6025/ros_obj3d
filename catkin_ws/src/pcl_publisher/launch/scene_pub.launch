@@ -1,0 +1,5 @@
+<launch>
+    <node pkg="pcl_publisher" type="scene_publisher.py" name="scene_publisher"
+        output='screen' />
+    <node type="rviz" name="rviz" pkg="rviz" args="-d $(find pcl_publisher)/rviz/scene_pub.rviz" />
+</launch>
