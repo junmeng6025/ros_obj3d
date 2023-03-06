@@ -3,12 +3,16 @@ Visualize the point cloud and 3d BBox from .obj file.
 ![ROS](https://img.shields.io/badge/ros-noetic-blue)
 ![Ubuntu](https://img.shields.io/badge/ubuntu-20.04-blue)  
 
-## Run
+## Build
 ```bash
 cd ros_obj3d/catkin_ws
 ```
 ```bash
 catkin build
+```
+## Run
+```bash
+cd ros_obj3d/catkin_ws
 ```
 ```bash
 source devel/setup.bash
