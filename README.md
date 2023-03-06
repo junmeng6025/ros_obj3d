@@ -43,13 +43,6 @@ under each of them, each frame is a folder, containing the .obj files for:
 - ground truth      (xxx_gt.obj)  
 
 what are published from these .obj files:
-- /pcl:       /baseline/<frame_id>/xxx_points.obj
-- /gt_bbox:   /baseline/<frame_id>/xxx_gt.obj
-- /bl_bbox:   /baseline/<frame_id>/xxx_pred.obj
-- /ours_bbox: /ours/<frame_id>/xxx_pred.obj
-
-
-
 | **ros topic**                                | **file**                                 |
 | :------------------------------------------- | :--------------------------------------- |
 |  /pcl                                        |  /baseline/<frame_id>/xxx_points.obj     |
