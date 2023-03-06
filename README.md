@@ -33,14 +33,14 @@ cp_vis_scene
     └── ... (the next frames)
 ```
 
-each scene is basically divided into "ours" and "baseline",
-under each of them, each frame is a folder, containing the .obj files for:
-    - point cloud       (xxx_points.obj)
-    - predicted result  (xxx_pred.obj)
-    - ground truth      (xxx_gt.obj)
+each scene is basically divided into "ours" and "baseline"  
+under each of them, each frame is a folder, containing the .obj files for:  
+- point cloud       (xxx_points.obj)
+- predicted result  (xxx_pred.obj)
+- ground truth      (xxx_gt.obj)
 what are published from these .obj files:
-    /pcl:       /baseline/<frame_id>/xxx_points.obj
-    /gt_bbox:   /baseline/<frame_id>/xxx_gt.obj
-    /bl_bbox:   /baseline/<frame_id>/xxx_pred.obj
-    /ours_bbox: /ours/<frame_id>/xxx_pred.obj
+- /pcl:       /baseline/<frame_id>/xxx_points.obj
+- /gt_bbox:   /baseline/<frame_id>/xxx_gt.obj
+- /bl_bbox:   /baseline/<frame_id>/xxx_pred.obj
+- /ours_bbox: /ours/<frame_id>/xxx_pred.obj
 
