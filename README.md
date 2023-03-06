@@ -8,6 +8,9 @@ Visualize the point cloud and 3d BBox from .obj file.
 cd ros_obj3d/catkin_ws
 ```
 ```bash
+catkin build
+```
+```bash
 source devel/setup.bash
 ```
 ```bash
