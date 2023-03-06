@@ -1,5 +1,8 @@
 # ros_obj3d
-Visualize the point cloud and 3d BBox from .obj file.
+Visualize the point cloud and 3d BBox from .obj file.  
+![ROS](https://img.shields.io/badge/ros-noetic-blue)
+![Ubuntu](https://img.shields.io/badge/ubuntu-20.04-blue)  
+
 ## Run
 ```bash
 cd ros_obj3d/catkin_ws
@@ -37,10 +40,21 @@ each scene is basically divided into "ours" and "baseline"
 under each of them, each frame is a folder, containing the .obj files for:  
 - point cloud       (xxx_points.obj)
 - predicted result  (xxx_pred.obj)
-- ground truth      (xxx_gt.obj)
+- ground truth      (xxx_gt.obj)  
+
 what are published from these .obj files:
 - /pcl:       /baseline/<frame_id>/xxx_points.obj
 - /gt_bbox:   /baseline/<frame_id>/xxx_gt.obj
 - /bl_bbox:   /baseline/<frame_id>/xxx_pred.obj
 - /ours_bbox: /ours/<frame_id>/xxx_pred.obj
+
+
+
+| **ros topic**                                | **file**                                 |
+| :------------------------------------------- | :--------------------------------------- |
+|  /pcl                                        |  /baseline/<frame_id>/xxx_points.obj     |
+|  /gt_bbox                                    |  /baseline/<frame_id>/xxx_gt.obj         |
+|  /bl_bbox                                    |  /baseline/<frame_id>/xxx_pred.obj       |
+|  /ours_bbox                                  |  /ours/<frame_id>/xxx_pred.obj           |
+
 
