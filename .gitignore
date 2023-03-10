@@ -1,0 +1,3 @@
+# Exclude inrelevant files
+.vscode
+.catkin_tools

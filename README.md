@@ -3,6 +3,8 @@ Visualize the point cloud and 3d BBox from .obj file.
 ![ROS](https://img.shields.io/badge/ros-noetic-blue)
 ![Ubuntu](https://img.shields.io/badge/ubuntu-20.04-blue)  
 
+<img src="./figs/obj_3d.png">
+
 ## Build
 ```bash
 cd ros_obj3d/catkin_ws
@@ -50,11 +52,11 @@ under each of them, each frame is a folder, containing the .obj files for:
 - ground truth      (xxx_gt.obj)  
 
 what are published from these .obj files:
-| **ros topic**                                | **file**                                 |
-| :------------------------------------------- | :--------------------------------------- |
-|  /pcl                                        |  /baseline/<frame_id>/xxx_points.obj     |
-|  /gt_bbox                                    |  /baseline/<frame_id>/xxx_gt.obj         |
-|  /bl_bbox                                    |  /baseline/<frame_id>/xxx_pred.obj       |
-|  /ours_bbox                                  |  /ours/<frame_id>/xxx_pred.obj           |
+| **ros topic** | **file**                            |
+| :------------ | :---------------------------------- |
+| /pcl          | /baseline/<frame_id>/xxx_points.obj |
+| /gt_bbox      | /baseline/<frame_id>/xxx_gt.obj     |
+| /bl_bbox      | /baseline/<frame_id>/xxx_pred.obj   |
+| /ours_bbox    | /ours/<frame_id>/xxx_pred.obj       |
 
 
