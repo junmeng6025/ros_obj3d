@@ -3,7 +3,7 @@ Visualize the point cloud and 3d BBox from .obj file.
 ![ROS](https://img.shields.io/badge/ros-noetic-blue)
 ![Ubuntu](https://img.shields.io/badge/ubuntu-20.04-blue)  
 
-<img src="./figs/obj_3d_dark.png">
+<img src="./figs/obj_3d.png">
 
 ## Build
 ```bash
